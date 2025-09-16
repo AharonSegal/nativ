@@ -35,6 +35,8 @@ void gui_internal_keyboard_to_upper_case(struct gui_priv *this) {
         gui_internal_keyboard_do(this, md->keyboard, VKBD_CYRILLIC_UPPER | VKBD_FLAG_2);
     if (md->keyboard_mode == (VKBD_GREEK_LOWER | VKBD_FLAG_2))
         gui_internal_keyboard_do(this, md->keyboard, VKBD_GREEK_UPPER | VKBD_FLAG_2);
+    if (md->keyboard_mode == (VKBD_HEBREW_LOWER | VKBD_FLAG_2))
+        gui_internal_keyboard_do(this, md->keyboard, VKBD_HEBREW_UPPER | VKBD_FLAG_2);
 }
 
 /**
@@ -60,6 +62,8 @@ void gui_internal_keyboard_to_lower_case(struct gui_priv *this) {
         gui_internal_keyboard_do(this, md->keyboard, VKBD_CYRILLIC_LOWER | VKBD_FLAG_2);
     if (md->keyboard_mode == (VKBD_GREEK_UPPER | VKBD_FLAG_2))
         gui_internal_keyboard_do(this, md->keyboard, VKBD_GREEK_LOWER | VKBD_FLAG_2);
+    if (md->keyboard_mode == (VKBD_HEBREW_UPPER | VKBD_FLAG_2))
+        gui_internal_keyboard_do(this, md->keyboard, VKBD_HEBREW_LOWER | VKBD_FLAG_2);
 }
 
 /**
@@ -124,7 +128,9 @@ struct gui_internal_keyb_mode {
     /*48: VKBD_CYRILLIC_LOWER*/ {"абв", 2, VKBD_CYRILLIC_UPPER, VKBD_LATIN_LOWER},
     /*56: VKBD_DEGREE        */ {"DEG", 2, VKBD_FLAG_2,         VKBD_FLAG_2},
     /*64: VKBD_GREEK_UPPER   */ {"ABΓ", 2, VKBD_GREEK_LOWER,    VKBD_LATIN_UPPER},
-    /*72: VKBD_GREEK_LOWER   */ {"abγ", 2, VKBD_GREEK_UPPER,    VKBD_LATIN_LOWER}
+    /*72: VKBD_GREEK_LOWER   */ {"abγ", 2, VKBD_GREEK_UPPER,    VKBD_LATIN_LOWER},
+    /*80: VKBD_HEBREW_UPPER  */ {"אבג", 2, VKBD_HEBREW_LOWER,   VKBD_LATIN_UPPER},
+    /*88: VKBD_HEBREW_LOWER  */ {"אבג", 2, VKBD_HEBREW_UPPER,   VKBD_LATIN_LOWER}
 };
 
 
@@ -202,7 +208,9 @@ gui_internal_keyboard_do(struct gui_priv *this, struct widget *wkbdb, int mode) 
     if (((mode & VKBD_LAYOUT_MASK) == VKBD_CYRILLIC_UPPER)
             || ((mode & VKBD_LAYOUT_MASK) == VKBD_CYRILLIC_LOWER)
             || ((mode & VKBD_LAYOUT_MASK) == VKBD_GREEK_UPPER)
-            || ((mode & VKBD_LAYOUT_MASK) == VKBD_GREEK_LOWER)) { // Russian/Ukrainian/Belarussian/Greek layout needs more space...
+            || ((mode & VKBD_LAYOUT_MASK) == VKBD_GREEK_LOWER)
+            || ((mode & VKBD_LAYOUT_MASK) == VKBD_HEBREW_UPPER)
+            || ((mode & VKBD_LAYOUT_MASK) == VKBD_HEBREW_LOWER)) { // Russian/Ukrainian/Belarussian/Greek/Hebrew layout needs more space...
         max_h=max_h*4/5;
         max_w=max_w*8/9;
         wkbd->cols=9;
@@ -287,6 +295,8 @@ gui_internal_keyboard_do(struct gui_priv *this, struct widget *wkbdb, int mode) 
                 MODE(VKBD_GREEK_UPPER);
             MODE(VKBD_CYRILLIC_UPPER);
             MODE(VKBD_CYRILLIC_LOWER);
+            MODE(VKBD_HEBREW_UPPER);
+            MODE(VKBD_HEBREW_LOWER);
             wk=gui_internal_keyboard_key_data(this, wkbd, hide, 0, gui_internal_keyboard_change, wkbdb, NULL,max_w,max_h);
             wk->datai = mode | VKBD_FLAG_1024;
             MODE(VKBD_LATIN_UPPER);
@@ -579,6 +589,104 @@ gui_internal_keyboard_do(struct gui_priv *this, struct widget *wkbdb, int mode) 
 
         gui_internal_keyboard_key(this, wkbd, backspace,"\b",max_w,max_h);
     }
+    if ((mode & VKBD_LAYOUT_MASK) == VKBD_HEBREW_UPPER) {
+        KEY("ק");
+        KEY("ר");
+        KEY("א");
+        KEY("ט");
+        KEY("ו");
+        KEY("ן");
+        KEY("ם");
+        KEY("פ");
+        KEY("ש");
+        KEY("ד");
+        KEY("ג");
+        KEY("כ");
+        KEY("ע");
+        KEY("י");
+        KEY("ח");
+        KEY("ל");
+        KEY("ך");
+        KEY("ף");
+        KEY("ז");
+        KEY("ס");
+        KEY("ב");
+        KEY("ה");
+        KEY("נ");
+        KEY("מ");
+        KEY("צ");
+        KEY("ת");
+        KEY("ץ");
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        gui_internal_keyboard_key(this, wkbd, space," ",max_w,max_h);
+
+        wk=gui_internal_keyboard_key_data(this, wkbd, hide, 0, gui_internal_keyboard_change, wkbdb, NULL,max_w,max_h);
+        wk->datai = mode | VKBD_FLAG_1024;
+
+        SWCASE();
+
+        MODE(VKBD_NUMERIC);
+
+        SPACER();
+
+        gui_internal_keyboard_key(this, wkbd, backspace,"\b",max_w,max_h);
+    }
+    if ((mode & VKBD_LAYOUT_MASK) == VKBD_HEBREW_LOWER) {
+        KEY("ק");
+        KEY("ר");
+        KEY("א");
+        KEY("ט");
+        KEY("ו");
+        KEY("ן");
+        KEY("ם");
+        KEY("פ");
+        KEY("ש");
+        KEY("ד");
+        KEY("ג");
+        KEY("כ");
+        KEY("ע");
+        KEY("י");
+        KEY("ח");
+        KEY("ל");
+        KEY("ך");
+        KEY("ף");
+        KEY("ז");
+        KEY("ס");
+        KEY("ב");
+        KEY("ה");
+        KEY("נ");
+        KEY("מ");
+        KEY("צ");
+        KEY("ת");
+        KEY("ץ");
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        SPACER();
+        gui_internal_keyboard_key(this, wkbd, space," ",max_w,max_h);
+
+        wk=gui_internal_keyboard_key_data(this, wkbd, hide, 0, gui_internal_keyboard_change, wkbdb, NULL,max_w,max_h);
+        wk->datai = mode | VKBD_FLAG_1024;
+
+        SWCASE();
+
+        MODE(VKBD_NUMERIC);
+
+        SPACER();
+
+        gui_internal_keyboard_key(this, wkbd, backspace,"\b",max_w,max_h);
+    }
 
 
     if(md->search_list && md->search_list->type==widget_table) {
@@ -692,6 +800,7 @@ static void gui_internal_keyboard_change(struct gui_priv *this, struct widget *k
  * @param lang The two-letter country code
  *
  * @return {@code VKBD_CYRILLIC_UPPER} for countries using the Cyrillic alphabet,
+ * {@code VKBD_GREEK_UPPER} for Greece, {@code VKBD_HEBREW_UPPER} for Israel,
  * {@code VKBD_LATIN_UPPER} otherwise
  */
 int gui_internal_keyboard_init_mode(char *lang) {
@@ -727,6 +836,10 @@ int gui_internal_keyboard_init_mode(char *lang) {
         ret = VKBD_CYRILLIC_UPPER;
     else if (strstr(lang,"GR"))
         ret = VKBD_GREEK_UPPER;
+    else if (strstr(lang,"IL"))
+        ret = VKBD_HEBREW_UPPER;
+    else if (strstr(lang,"HE"))
+        ret = VKBD_HEBREW_UPPER;
     g_free(lang);
     return ret;
 }
