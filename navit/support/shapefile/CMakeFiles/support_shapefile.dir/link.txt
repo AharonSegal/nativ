@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libsupport_shapefile.a CMakeFiles/support_shapefile.dir/dbfopen.c.o CMakeFiles/support_shapefile.dir/shpopen.c.o CMakeFiles/support_shapefile.dir/shptree.c.o
+/usr/bin/x86_64-w64-mingw32-ranlib libsupport_shapefile.a

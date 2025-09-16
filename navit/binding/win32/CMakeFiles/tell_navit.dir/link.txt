@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/tell_navit.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/tell_navit.dir/objects.a @CMakeFiles/tell_navit.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall  -Wno-unused-parameter  -Wno-sign-compare  -Wno-missing-field-initializers  -Wundef  -Wcast-align  -Wpointer-arith  -Wextra  -Wdate-time  -Wmissing-prototypes  -Wstrict-prototypes  -Wformat-security  -Werror=format-security  -O2 -g -DNDEBUG -Wl,--whole-archive CMakeFiles/tell_navit.dir/objects.a -Wl,--no-whole-archive -o tell_navit.exe -Wl,--out-implib,libtell_navit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/tell_navit.dir/linkLibs.rsp

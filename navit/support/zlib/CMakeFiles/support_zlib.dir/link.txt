@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libsupport_zlib.a CMakeFiles/support_zlib.dir/adler32.c.o CMakeFiles/support_zlib.dir/crc32.c.o CMakeFiles/support_zlib.dir/infback.c.o CMakeFiles/support_zlib.dir/inffast.c.o CMakeFiles/support_zlib.dir/inflate.c.o CMakeFiles/support_zlib.dir/inftrees.c.o CMakeFiles/support_zlib.dir/zutil.c.o CMakeFiles/support_zlib.dir/zlib_init.c.o
+/usr/bin/x86_64-w64-mingw32-ranlib libsupport_zlib.a

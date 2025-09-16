@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libsupport_libpng.a CMakeFiles/support_libpng.dir/png.c.o CMakeFiles/support_libpng.dir/pngerror.c.o CMakeFiles/support_libpng.dir/pngget.c.o CMakeFiles/support_libpng.dir/pngmem.c.o CMakeFiles/support_libpng.dir/pngread.c.o CMakeFiles/support_libpng.dir/pngrio.c.o CMakeFiles/support_libpng.dir/pngrtran.c.o CMakeFiles/support_libpng.dir/pngrutil.c.o CMakeFiles/support_libpng.dir/pngset.c.o CMakeFiles/support_libpng.dir/pngtrans.c.o CMakeFiles/support_libpng.dir/libpng_init.c.o
+/usr/bin/x86_64-w64-mingw32-ranlib libsupport_libpng.a
