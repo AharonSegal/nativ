@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libosd_core.a CMakeFiles/osd_core.dir/osd_core.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libosd_core.a

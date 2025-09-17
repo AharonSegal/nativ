@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libspeech_cmdline.a CMakeFiles/speech_cmdline.dir/speech_cmdline.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libspeech_cmdline.a

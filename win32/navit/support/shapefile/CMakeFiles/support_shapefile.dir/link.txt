@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libsupport_shapefile.a CMakeFiles/support_shapefile.dir/dbfopen.c.obj CMakeFiles/support_shapefile.dir/shpopen.c.obj CMakeFiles/support_shapefile.dir/shptree.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libsupport_shapefile.a

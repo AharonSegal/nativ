@@ -1,0 +1,46 @@
+navit/support/gettext_intl/CMakeFiles/support_gettext_intl.dir/dcigettext.c.obj: \
+ /workspaces/nativ/navit/support/gettext_intl/dcigettext.c \
+ /workspaces/nativ/win32/config.h /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/corecrt.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/limits.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/mm_malloc.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /usr/share/mingw-w64/include/sys/types.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /usr/share/mingw-w64/include/unistd.h /usr/share/mingw-w64/include/io.h \
+ /usr/share/mingw-w64/include/process.h \
+ /usr/share/mingw-w64/include/corecrt_startup.h \
+ /usr/share/mingw-w64/include/getopt.h \
+ /usr/share/mingw-w64/include/pthread_unistd.h \
+ /usr/share/mingw-w64/include/locale.h \
+ /usr/share/mingw-w64/include/signal.h \
+ /usr/share/mingw-w64/include/pthread_signal.h \
+ /workspaces/nativ/navit/support/gettext_intl/gettextP.h \
+ /workspaces/nativ/navit/support/gettext_intl/loadinfo.h \
+ /workspaces/nativ/navit/support/gettext_intl/gmo.h \
+ /workspaces/nativ/navit/support/gettext_intl/libgnuintl.h \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/corecrt_stdio_config.h \
+ /usr/share/mingw-w64/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/stdarg.h \
+ /usr/share/mingw-w64/include/stdarg.h \
+ /usr/share/mingw-w64/include/_mingw_stdarg.h \
+ /workspaces/nativ/navit/support/gettext_intl/plural-exp.h \
+ /workspaces/nativ/navit/support/gettext_intl/hash-string.h \
+ /workspaces/nativ/navit/support/gettext_intl/eval-plural.h

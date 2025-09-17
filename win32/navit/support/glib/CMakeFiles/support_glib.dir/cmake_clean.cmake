@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/support_glib.dir/fake.c.obj"
+  "CMakeFiles/support_glib.dir/fake.c.obj.d"
+  "CMakeFiles/support_glib.dir/galiasdef.c.obj"
+  "CMakeFiles/support_glib.dir/galiasdef.c.obj.d"
+  "CMakeFiles/support_glib.dir/gatomic.c.obj"
+  "CMakeFiles/support_glib.dir/gatomic.c.obj.d"
+  "CMakeFiles/support_glib.dir/gerror.c.obj"
+  "CMakeFiles/support_glib.dir/gerror.c.obj.d"
+  "CMakeFiles/support_glib.dir/ghash.c.obj"
+  "CMakeFiles/support_glib.dir/ghash.c.obj.d"
+  "CMakeFiles/support_glib.dir/glib_init.c.obj"
+  "CMakeFiles/support_glib.dir/glib_init.c.obj.d"
+  "CMakeFiles/support_glib.dir/glist.c.obj"
+  "CMakeFiles/support_glib.dir/glist.c.obj.d"
+  "CMakeFiles/support_glib.dir/gmem.c.obj"
+  "CMakeFiles/support_glib.dir/gmem.c.obj.d"
+  "CMakeFiles/support_glib.dir/gmessages.c.obj"
+  "CMakeFiles/support_glib.dir/gmessages.c.obj.d"
+  "CMakeFiles/support_glib.dir/gprimes.c.obj"
+  "CMakeFiles/support_glib.dir/gprimes.c.obj.d"
+  "CMakeFiles/support_glib.dir/gprintf.c.obj"
+  "CMakeFiles/support_glib.dir/gprintf.c.obj.d"
+  "CMakeFiles/support_glib.dir/gslice.c.obj"
+  "CMakeFiles/support_glib.dir/gslice.c.obj.d"
+  "CMakeFiles/support_glib.dir/gslist.c.obj"
+  "CMakeFiles/support_glib.dir/gslist.c.obj.d"
+  "CMakeFiles/support_glib.dir/gstrfuncs.c.obj"
+  "CMakeFiles/support_glib.dir/gstrfuncs.c.obj.d"
+  "CMakeFiles/support_glib.dir/gstring.c.obj"
+  "CMakeFiles/support_glib.dir/gstring.c.obj.d"
+  "CMakeFiles/support_glib.dir/gutf8.c.obj"
+  "CMakeFiles/support_glib.dir/gutf8.c.obj.d"
+  "CMakeFiles/support_glib.dir/gutils.c.obj"
+  "CMakeFiles/support_glib.dir/gutils.c.obj.d"
+  "libsupport_glib.a"
+  "libsupport_glib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/support_glib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

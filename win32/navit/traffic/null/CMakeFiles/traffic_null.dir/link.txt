@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libtraffic_null.a CMakeFiles/traffic_null.dir/traffic_null.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libtraffic_null.a

@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libgraphics_null.a CMakeFiles/graphics_null.dir/graphics_null.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libgraphics_null.a

@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libmap_csv.a CMakeFiles/map_csv.dir/csv.c.obj CMakeFiles/map_csv.dir/quadtree.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libmap_csv.a

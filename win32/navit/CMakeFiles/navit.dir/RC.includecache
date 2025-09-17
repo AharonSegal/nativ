@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/nativ/navit/gui/win32/resources/resource.h
+windows.h
+-
+
+/workspaces/nativ/navit/gui/win32/resources/resource.rc
+resource.h
+/workspaces/nativ/navit/gui/win32/resources/resource.h
+

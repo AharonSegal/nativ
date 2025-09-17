@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libbinding_win32.a CMakeFiles/binding_win32.dir/binding_win32.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libbinding_win32.a

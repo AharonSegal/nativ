@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libvehicle_file.a CMakeFiles/vehicle_file.dir/vehicle_file.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libvehicle_file.a

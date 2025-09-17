@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libvehicle_serial.a CMakeFiles/vehicle_serial.dir/vehicle_serial.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libvehicle_serial.a

@@ -1,0 +1,29 @@
+navit/support/zlib/CMakeFiles/support_zlib.dir/infback.c.obj: \
+ /workspaces/nativ/navit/support/zlib/infback.c \
+ /workspaces/nativ/navit/support/zlib/zutil.h \
+ /workspaces/nativ/navit/support/zlib/zlib.h \
+ /workspaces/nativ/navit/support/zlib/zconf.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/corecrt.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/limits.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/mm_malloc.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /workspaces/nativ/navit/support/zlib/inftrees.h \
+ /workspaces/nativ/navit/support/zlib/inflate.h \
+ /workspaces/nativ/navit/support/zlib/inffast.h \
+ /workspaces/nativ/navit/support/zlib/inffixed.h

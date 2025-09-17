@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libmap_binfile.a CMakeFiles/map_binfile.dir/binfile.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libmap_binfile.a

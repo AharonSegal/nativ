@@ -1,0 +1,33 @@
+navit/support/gettext_intl/CMakeFiles/support_gettext_intl.dir/gettext.c.obj: \
+ /workspaces/nativ/navit/support/gettext_intl/gettext.c \
+ /workspaces/nativ/win32/config.h /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/corecrt.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/limits.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/mm_malloc.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /workspaces/nativ/navit/support/gettext_intl/gettextP.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /workspaces/nativ/navit/support/gettext_intl/loadinfo.h \
+ /workspaces/nativ/navit/support/gettext_intl/gmo.h \
+ /workspaces/nativ/navit/support/gettext_intl/libgnuintl.h \
+ /usr/share/mingw-w64/include/locale.h \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/corecrt_stdio_config.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/share/mingw-w64/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/lib/gcc/i686-w64-mingw32/13-win32/include/stdarg.h \
+ /usr/share/mingw-w64/include/stdarg.h \
+ /usr/share/mingw-w64/include/_mingw_stdarg.h

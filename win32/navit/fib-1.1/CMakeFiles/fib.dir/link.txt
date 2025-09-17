@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libfib.a CMakeFiles/fib.dir/fib.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libfib.a

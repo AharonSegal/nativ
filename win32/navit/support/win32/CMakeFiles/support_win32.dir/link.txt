@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libsupport_win32.a CMakeFiles/support_win32.dir/mmap.c.obj CMakeFiles/support_win32.dir/win32_init.c.obj CMakeFiles/support_win32.dir/serial_io.c.obj CMakeFiles/support_win32.dir/addwinsock.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libsupport_win32.a

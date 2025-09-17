@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libsupport_ezxml.a CMakeFiles/support_ezxml.dir/ezxml.c.obj CMakeFiles/support_ezxml.dir/ezxml_init.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libsupport_ezxml.a

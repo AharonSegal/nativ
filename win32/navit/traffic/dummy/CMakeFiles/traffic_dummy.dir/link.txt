@@ -1,0 +1,2 @@
+/usr/bin/i686-w64-mingw32-ar qc libtraffic_dummy.a CMakeFiles/traffic_dummy.dir/traffic_dummy.c.obj
+/usr/bin/i686-w64-mingw32-ranlib libtraffic_dummy.a
